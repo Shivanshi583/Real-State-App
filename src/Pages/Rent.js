@@ -71,10 +71,20 @@ const Rent = () => {
 
       <div className='products'>
         <div className='product'>
-          <div className='image'>
+          
            <img src={house1} alt="house"/>
-          </div>
+         
         </div>
+        <div className='product'>
+          
+          <img src={house1} alt="house"/>
+        
+       </div>
+       <div className='product'>
+          
+          <img src={house1} alt="house"/>
+        
+       </div>
       
 
       </div>
@@ -85,4 +95,4 @@ const Rent = () => {
   )
 };
 
-export default Rent
+export default Rent;

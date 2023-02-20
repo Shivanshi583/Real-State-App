@@ -105,6 +105,18 @@
     bottom:4px;
 }
 
+.products{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.product{
+    width:2px;
+    height:2px;
+    object-fit: contain;
+    margin-top: 50px;
+   margin-right: 20px;
+}
+
 
 
 
