@@ -1,0 +1,113 @@
+.rent__home{
+    margin:100px;
+    margin-top:32px;
+}
+
+.search{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.search__box{
+    width: 220px;
+    display: flex;
+    align-items: center;
+     background: #fff;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 5px;
+   padding: 10px;
+    margin-top: 5px
+}
+
+.search__box input{
+  
+   font-weight: bold;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.search__box span{
+    border-radius: 75%;
+    padding: 3px;
+    background-color: rgba(251,0,251,0.1);
+}
+
+.input__tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fiter__form{
+    margin-top: 30px;
+    background: #fff;
+   padding:32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.filter__box{
+    margin-left: -100px;
+    margin-right:25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px grey;
+    justify-content: center;
+   position: relative;
+    line-height: 32px;
+    border-right: 1px solid grey;
+
+}
+
+.filter__box span{
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filter__box input{
+    color: black;
+    font-weight: 700;
+    border: none;
+    outline:none;
+
+}
+
+.search__btn  button{
+    padding: 12px 24px;
+    color: white;
+    background-color: blueviolet;
+    border-style: none;
+    font-weight: bold;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+.icon{
+    color: blue;
+    position: absolute;
+    right:10px;
+    top:40px;
+    border-radius: 75%;
+    padding:3px  ;
+    background: rgba(251,0,251,0.1);
+    bottom:4px;
+}
+
+
+
+
+
+
+

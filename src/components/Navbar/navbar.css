@@ -1,0 +1,134 @@
+.navbar{
+   width:100%;
+   height:100px;
+   line-height: 25px;
+   display: flex;
+   align-items: center;
+  
+   
+   box-shadow: 3px 3px 8px -3px #ddd;
+  
+
+}
+.logo{
+ 
+   margin: 10px;
+   padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width:1.2rem;
+    height: 1.2rem;
+}
+
+.logo h3{
+    margin-left: 8px;;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+    margin-left:70px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__item a{
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.nav__item a:hover{
+    color:blueviolet;
+    font-weight: 700;
+   padding: 10px;
+   border-radius:3px;
+   background-color: rgba(255, 0, 251, 0.1);
+
+}
+
+.nav__active{
+    font-weight: 700 !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.nav__tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.nav__tab a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.nav__tab a:hover{
+    color:blueviolet;
+    font-weight: 700;
+   padding: 10px;
+   border-radius:3px;
+   background-color: rgba(255, 0, 251, 0.1);   
+
+}
+
+.arrow {
+      top:15px;
+    font-size: 28px;
+}
+
+.sign__menu{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 550px;
+}
+ 
+.btn__one{
+    padding: 10px 20px;
+    background-color: rgba(188, 184, 188, 0.111);
+   outline: none;
+   border: 1px solid grey;
+     font-weight: bold;
+    background-color: #fff;
+    border-radius: 5px;
+    color: blueviolet;
+    
+   
+}
+
+.btn__two{
+    padding: 12px 24px;
+     color: white;
+     background-color: blueviolet;
+     border-style: none;
+     font-weight: bold;
+     margin-left: 8px;
+     border-radius: 4px;
+}
