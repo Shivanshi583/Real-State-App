@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/rent.css";
-import img1 from "./../Assets/Images/image1.jpg";
+import house1 from "./../Assets/Images/image1.jpg";
 
 const Rent = () => {
   return (
@@ -71,7 +71,9 @@ const Rent = () => {
 
       <div className='products'>
         <div className='product'>
-          
+          <div className='image'>
+           <img src={house1} alt="house"/>
+          </div>
         </div>
       
 
